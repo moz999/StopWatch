@@ -3,4 +3,5 @@
 
     <string name="text_start_button">スタート</string>
     <string name="text_stop_button">ストップ</string>
+    <string name="text_set_timer">タイマーセット</string>
 </resources>

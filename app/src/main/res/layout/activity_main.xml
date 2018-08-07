@@ -4,37 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/linerLayout"
+
+    <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
-        android:padding="20dp">
-
-        <TextView
-            android:id="@+id/Timer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:textSize="60sp"
-            android:textColor="#00f"
-            android:layout_gravity="center"/>
-
-        <Button
-            android:id="@+id/start_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/text_start_button"/>
-
-        <Button
-            android:id="@+id/stop_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/text_stop_button"/>
+        android:id="@+id/viewPager" />
 
 
-    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
